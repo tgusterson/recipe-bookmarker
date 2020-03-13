@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const mongoose = require('mongoose');
 const auth = require('../middleware/auth');
-const User = require('../models/user')
+const User = require('../models/User')
 
 router.post('/signup', async (req, res, next) => {
   const user = new User(req.body);

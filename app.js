@@ -11,7 +11,6 @@ const userRoutes = require('./api/routes/user');
 const recipesRoutes = require('./api/routes/recipes');
 
 const app = express();
-const port = process.env.PORT || 3000;
 
 app.use(cors());
 app.use(morgan('dev'));
@@ -25,6 +24,4 @@ app.use('/recipes', recipesRoutes);
 app.use(undefinedRoutehandler);
 app.use(errorHandler);
 
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
-});
+module.exports = app;
