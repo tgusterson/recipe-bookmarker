@@ -25,6 +25,6 @@
     "dev": "env-cmd -f ./config/dev.env nodemon index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Thomas Gusterson",
+  "license": "MIT"
 }
