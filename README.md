@@ -1,6 +1,8 @@
 # Recipe Bookmarker
 
-This is an Express.js application to make saving recipes you find online easier. 
+This is an API built with ExpressJS to make saving the recipes you find online easier.
+
+Front end coming soon...
 
 ## Getting Started
 
