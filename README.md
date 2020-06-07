@@ -1,15 +1,18 @@
 # Recipe Bookmarker
 
-This is an API built with ExpressJS to make saving the recipes you find online easier. 
+This is an API built with ExpressJS to make saving recipes you find online easier. The functionality is limited to basic CRUD operations as this primarily served as a way to learn NodeJS & ExpressJS.
+
+Feel free to use the live version of the API I've deployed (you can create your own front end or just use Postman depending on your needs). If you want to expand the functionality, feel free to take the code and deploy your own version!
 
 * The API is deployed to Heroku here: https://recipe-bookmarker-api.herokuapp.com
-* The API documentation can be found here: 
+* The API documentation can be found here: https://documenter.getpostman.com/view/9125625/SztK2QcX?version=latest
 
 ### Prerequisites
 
 What you need:
 
-* A MongoDB Atlas account.
+* If you want to further develop the API, you'll need a MongoDB Atlas account.
+* If you want to consume the API, you can use an app like Postman or develop your own frontend!
 
 ## Running tests
 
