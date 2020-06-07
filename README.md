@@ -1,18 +1,12 @@
 # Recipe Bookmarker
 
-This is an Express.js application to make saving recipes you find online easier. 
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+This is an app built with ExpressJS to make saving the recipes you find online easier. Right now only a basic back-end exists (in the form of an API), but I will add a client to consume the API + more features soon (I'll also deploy an example to Heroku).
 
 ### Prerequisites
 
 What you need:
 
-```
-A MongoDB Atlas account.
-```
+* A MongoDB Atlas account.
 
 ## Running tests
 
