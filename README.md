@@ -1,6 +1,9 @@
 # Recipe Bookmarker
 
-This is an app built with ExpressJS to make saving the recipes you find online easier. Right now only a basic back-end exists (in the form of an API), but I will add a client to consume the API + more features soon (I'll also deploy an example to Heroku).
+This is an API built with ExpressJS to make saving the recipes you find online easier. 
+
+* The API is deployed to Heroku here: https://recipe-bookmarker-api.herokuapp.com
+* The API documentation can be found here: 
 
 ### Prerequisites
 
